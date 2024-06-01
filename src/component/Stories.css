@@ -1,0 +1,63 @@
+.stories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.story-card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.story-card:hover {
+    transform: scale(1.05);
+}
+
+.story-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.story-content {
+    padding: 20px;
+}
+
+.story-title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.story-status {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.new {
+    color: #00f;
+}
+
+.in-progress {
+    color: #ffa500;
+}
+
+.completed {
+    color: #0f0;
+}
+
+.story-link {
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.story-link:hover {
+    background-color: #0056b3;
+}
